@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+
+    <main class="principal">
+        
+        <div class="primer-div">
+            <div class="logo">
+                <img src="img/logoAlura.png" alt="Logo de Alura">
+            </div>
+            <!-- <h1 class="titulo">A</h1>  -->
+            <input class="inputTexto" type="text" placeholder="Ingrese el texto aquí">
+            <p> <img class="signoExclamacion" src="img/signo-de-exclamacion.png">solo letras minúsculas y sin acentos</p>
+            <input id="btn1" class="boton" type="submit" value="Encriptar!">
+            <input id="btn2" class="boton" type="submit" value="Desencriptar!">
+
+
+
+
+
+            <div class="segundo-div">
+                <p class="cajaTexto">Ningun mensaje fue encontrado</p>
+                <div id="cajaDesc">
+                    <input class="inputTexto2" type="text" placeholder="Ingrese texto a Desencriptar">
+                   <span class="txtCopy"></span>
+                    <p class="copia"></p>
+                    <span class="txtD"></span>
+                    <p class="textoDesencriptado"></p>
+                    <button id="btn3" class="boton">Copiar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/principal.js"></script>
+</body>
+</html>
